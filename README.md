@@ -1,5 +1,5 @@
-# google-sheets-to-html
-JavaScript that draws a Google Sheets document into an HTML table (includes base web template)
+https://www.instagram.com/vegansofmanila/
 
-You can find more details and usage for this at my blog:
-https://blog.crunchprank.net/google-sheets-to-html-table/
+http://www.astigvegan.com/complete-list-of-vegan-restaurants-in-the-philippines/
+
+https://docs.google.com/spreadsheets/d/178wQJLSyrXWNBx5Zkgs1JvwvYH0m_hTaskaBQAG19DE/edit#gid=0
