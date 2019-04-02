@@ -15,10 +15,9 @@ google.load('visualization', '1', {
 var visualization;
 
 function drawVisualization() {
-    //url = 'https://docs.google.com/spreadsheets/d/178wQJLSyrXWNBx5Zkgs1JvwvYH0m_hTaskaBQAG19DE/gviz/tq=SELECT%20A%2C%20B%2C%20C%2C%20D%20label%20A%20%22Name%22%2C%20B%20%22City%22%2C%20C%20%22Website%22%2C%20D%20%22Address%22';
     url = 'https://docs.google.com/spreadsheets/d/178wQJLSyrXWNBx5Zkgs1JvwvYH0m_hTaskaBQAG19DE/edit?usp=sharing';
     var query = new google.visualization.Query(url);
-    query.setQuery('SELECT A, B, C label A "Name", B "City", C "Address"');
+    query.setQuery('SELECT A, B, C label A "City", B "Name", C "Address"');
     query.send(handleQueryResponse);
 }
 
