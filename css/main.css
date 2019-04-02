@@ -49,10 +49,11 @@ a:hover {
 }
 
 
+
 /***************************
     Google Table CSS
 ***************************/
-
+/*
 .google-visualization-table-tr-even,
 .google-visualization-table-tr-even td,
 .google-visualization-table-tr-even-nonstrict {
@@ -98,7 +99,7 @@ a:hover {
 .google-visualization-table .gradient {
   background-image: none !important;
 }
-
+*/
 
 /***************************
     Text Selection CSS
