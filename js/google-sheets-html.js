@@ -32,7 +32,7 @@ function handleQueryResponse(response) {
     visualization.draw(data, {
         allowHtml: true,
         legend: 'bottom',
-        //showRowNumber: true,
+        showRowNumber: true,
         width: '100%',
         height: '100%',
         alternatingRowStyle: true
