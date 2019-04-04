@@ -26,6 +26,18 @@ function handleQueryResponse(response) {
         alert('There was a problem with your query: ' + response.getMessage() + ' ' + response.getDetailedMessage());
         return;
     }
+
+    var cssClassNames = {
+        'headerRow': 'cssHeaderRow',
+        'tableRow': 'cssTableRow',
+        'oddTableRow': 'cssOddTableRow',
+        'selectedTableRow': 'cssSelectedTableRow',
+        'hoverTableRow': 'cssHoverTableRow',
+        'headerCell': 'cssHeaderCell',
+        'tableCell': 'cssTableCell',
+        'rowNumberCell': 'cssRowNumberCell'
+    };
+
     var data = response.getDataTable();
     visualization = new google.visualization.Table(document.getElementById('table'));
     visualization.draw(data, {
@@ -34,7 +46,8 @@ function handleQueryResponse(response) {
         showRowNumber: true,
         width: '100%',
         height: '100%',
-        alternatingRowStyle: true
+        alternatingRowStyle: true,
+        cssClassNames: cssClassNames
     });
 }
 google.setOnLoadCallback(drawVisualization);
